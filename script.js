@@ -8,3 +8,9 @@ ctx.strokeStyle = "red";
 ctx.fillStyle = "yellow";
 ctx.fill();
 ctx.stroke();
+
+canvas.addEventListener("keydown", function (e) {
+  if (e.keyCode === 40) {
+    console.log("UP");
+  }
+});
